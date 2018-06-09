@@ -1,0 +1,84 @@
+@charset "utf-8";
+*{
+	color: #777;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+h3,h3 *{
+	color: #666;
+}
+a{
+	text-decoration: none;
+	color:#CCC;
+}
+a:hover p,a:hover{
+	color: #c81623;
+}
+li{
+	list-style: none;
+}
+.arrow,.lovelife-list-smimg-leftarrow,.lovelife-list-smimg-rightarrow,.sidebar-leftfixed{
+	-moz-user-select: none;
+  	-webkit-user-select: none;
+  	-ms-user-select: none;
+}
+/*compatible in IE10*/
+img{
+	border: none;
+}/* CSS Document */
+
+.hideWhenScrollBlock{
+	width:100%;
+	position:fixed;
+	top:0;
+	background-color:white;
+	border-bottom:3px solid red;
+	z-index:9999;
+	display:none;
+
+}
+.hideWhenScrollBlock > div{
+	margin-left:18%;
+	margin-top:2%;
+}
+.hideDivBlock{
+	position:fixed;
+	top:25%;
+	left:0.5%;
+	z-index:999;
+	display:none;
+}
+.hideDivBlock ol li{
+	display:block;
+	width:30px;
+	height:60px;
+	background-color:#333;
+	opacity:0.6;
+	color:#FFF;
+	font-size:14px;
+	padding-top:10px;
+	border-bottom:1px #FFFFFF solid;
+	box-shadow:1px 1px 2px 0px #333333;
+}
+.hideDivBlock ol li:first-child{
+	background-color:#F00;
+}
+.hideDivBlock ol li:last-child{
+	background-color:#000;
+	opacity:0.6;
+	padding-top:20px;
+}
+.hideDivBlock ol li:last-child:hover{
+	background-color:black;
+	opacity:0.6;
+}
+.hideDivBlock ol li:hover{
+	background-color:#F00;
+}
+.hideDivBlock ol li a{
+	color:white;
+}
+.contentDiv{
+	text-align:left;
+}
